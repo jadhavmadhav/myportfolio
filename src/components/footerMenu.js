@@ -27,7 +27,7 @@ const unActive = {
 export default function FooterMenu() {
   const [activebtn, setActivebtn] = useState("#")
   return (
-    <section className="h-[50px] fixed bottom-0 flex justify-center w-[100%] ">
+    <section className="h-[50px]  sticky bottom-0 w-[100%] flex justify-center">
 
       <div className=" h-[100%] max-w-[90%] w-[300px] rounded-[25px] bg-slate-500/[0.3] flex flex-column justify-around items-center">
         <a href="#" onClick={() => setActivebtn('#')} style={activebtn == "#" ? active : unActive}><AiOutlineHome className="text-xl active:scale-110" /></a>

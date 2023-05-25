@@ -9,14 +9,15 @@ import Contact from "./pages/contact";
 function App() {
   return (
 
-    <div className="container mx-auto xl:w-[768px] h-[100%] bg-fixed  bg-slate-700 text-white relative">
+    <div className="container mx-auto xl:w-[568px] h-[100%] bg-fixed  bg-slate-700 text-white ">
       {/* <div className="absolute h-[100%] w-[100%]"> */}
 
         <Home />
         <About />
         <Experience />
-        <FooterMenu />
         <Contact />
+        <FooterMenu />
+
       {/* </div> */}
     </div>
 
